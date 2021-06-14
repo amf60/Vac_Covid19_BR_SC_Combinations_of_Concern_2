@@ -101,7 +101,7 @@ Terminal Command Line: due to restrictions and/or issues with the uploading of t
 
 ## Phase II: 
 
-Used Google Drive, Colab and Python – First I managed to upload one of the 17 UDVE files. I will then used it to create a notebook by finding, isolating and quantifying all the exisiting combinations between the 5 variables (columns) mentioned above. Once I succeed to get the key information I need at this stage, I simply replicated this file for all the other 16 UDVEs
+Used Google Drive, Colab and Python – First I managed to upload one of the 17 UDVE files. I will then used it to create a notebook by finding, isolating and quantifying all the exisiting combinations between the 5 variables (columns) mentioned above. Once I succeed to get the key information I need at this stage, I simply replicated this file for all the other 16 UDVEs. As all the 17 separated Colab notebooks have the same code, for convenience I will add on this github repository a notebook for only one UDVE. 
 
 ## Phase III:
 
