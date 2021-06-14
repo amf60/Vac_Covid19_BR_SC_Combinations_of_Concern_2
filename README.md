@@ -64,7 +64,7 @@ SERUM INSTITUTE OF INDIA Ltds and Covishield are related to the AstraZeneca vacc
 
 
 
-# KEY FINDINGS:
+# KEY FINDINGS
 
 • Only 2 out 17 SC UDVEs are responsible for ~ 80% of all registrations of concern (202.195 out of 259.507). 
 
@@ -73,14 +73,14 @@ SERUM INSTITUTE OF INDIA Ltds and Covishield are related to the AstraZeneca vacc
 • The proportion of combination of concern, for the column 29 was: Dose 1 = 64 % and Dose 2 = 36 % respectively.
 
 
-# COMMENTS: 
+# COMMENTS
 
 From the RBM methodology point of view, the above findings from this M2 project are 'great news'. 
 
 It suggests that the root cause of such discrepancies are isolated, traceable, and in theory, have potential for manageable and speedy corrective actions using RBM tecniques.
 
 
-# Next steps, 
+# NEXT STEPS
 
 * for the Module 3 project of this bootcamp to dig furhter and identify the counties and 'vaccination centers' with high frequency of combination of concern to be targeted for more detailed assessment of the root cause of those combinations of concern. We expect that such strategy will allow to set up an effective and tailored corrective and&or training plan.
 
@@ -91,7 +91,7 @@ It suggests that the root cause of such discrepancies are isolated, traceable, a
 
 
 
-# Further details about how project was prepared:
+# Further details about how this project evolved:
 
 It was created on three phases, each using different tools: 
 
