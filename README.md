@@ -13,7 +13,7 @@ In the previous project after cross-checking 3 our of 34 original columns (colun
 
 * Initial master file named – sc3005_05am.csv
 
-* Total master file size – 1.11 GB = 34 colunas e 2,017,225 de linhas
+* Total master file size – 1.11 GB = 34 columns (or variables) and 2,017,225 rows (or registrations)
 
 * The above master file was divided in 17 separated files. Each grouping all the registered data from the counties belonging to a DECENTRALIZED EPIDEMIOLOGICAL SURVEILLANCE UNITS (UDVE) in the state of Santa Catarina- Brasil.
 
