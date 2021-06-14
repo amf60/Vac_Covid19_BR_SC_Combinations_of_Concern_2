@@ -1,5 +1,5 @@
 # Introduction
-This repository is my personal project for the Module 2 of the Alura Bootcamp Applied Data Sciences.
+This repository, built in 3 phases (details at the end of this page) is my personal project for the Module 2 of the Alura Bootcamp Applied Data Sciences.
 
 It digs further on the findings from my previous project (vac-covid_19_3005_SC_c26_c30_c31) for the Module 1 of the same bootcamp.
 
