@@ -115,4 +115,6 @@ Excel: I then concatanated in the excel file, all the combinations between the 5
 * (1) https://opendatasus.saude.gov.br/dataset/covid-19-vacinacao/resource/ef3bd0b8-b605-474b-9ae5-c97390c197a8?view_id=6bf433e7-16ec-4dfa-a725-08db02322bd6
 * (2) https://en.wikipedia.org/wiki/Santa_Catarina_(state)
 * (3) https://www.bbc.com/news/world-asia-india-55748124
-* (3) https://butantan.gov.br/covid/butantan-tira-duvida/tira-duvida-noticias/quais-sao-as-diferencas-entre-as-vacinas-contra-covid-19-que-estao-sendo-aplicadas-no-brasil
+* (3) ANVISA - Vacina Covid19 - acessed on 13 Jun 21 - https://www.gov.br/anvisa/pt-br/assuntos/paf/coronavirus/vacinas 
+* (3) ANVISA - Vacinas registradas - acessed on 13 Jun 21 - https://www.gov.br/anvisa/pt-br/assuntos/paf/coronavirus/vacinas-covid/registros
+* (3) ANVISA - Vacinas Uso Emergencial - acessed on 13 Jun 21 - https://www.gov.br/anvisa/pt-br/assuntos/paf/coronavirus/vacinas-covid/vacinas-uso-emergencial
