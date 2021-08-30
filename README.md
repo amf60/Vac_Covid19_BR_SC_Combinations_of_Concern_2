@@ -1,6 +1,6 @@
 * Dataset Source – OpenDataSus  - Registros de Vacinação Covid19 - Dados SC – Santa Catarina – Brasil (1)
 * Dataset downloaded on 30 de maio 2021 at 05:00 am.
-* Inicial master File named – sc3005_05am.csv
+* Inicial master File named – sc3005_05amB.csv (updated version of sc3005_05am)
 * Original total file size – 1.11 GB = 34 columns and 2.017.225 rows (or registrations)
 
 * The above master file was divided in 17 separated files. Each grouping all the registered data from the counties belonging to a DECENTRALIZED EPIDEMIOLOGICAL SURVEILLANCE UNITS (UDVE) in the state of Santa Catarina- Brasil.
@@ -91,7 +91,7 @@ It was created on three phases, each using different tools:
 
 ## Phase I:
 
-Terminal Command Line: due to restrictions and/or issues with the uploading of the master file due to its size I used the terminal command line on my macbook laptop to parse the data from the raw master file into 17 files, each corresponding to a diferent UDVE of the state of SC. For furhter information about the tecniques used for this task please check the worksheet 'Phase 1 - Term. Com.Line - M2P in the attached excel file named 'sc3005_05am - Github Documentation - M2P - Phases 1 e 3.xlsx'
+Terminal Command Line: due to restrictions and/or issues with the uploading of the master file due to its size I used the terminal command line on my macbook laptop to parse the data from the raw master file into 17 files, each corresponding to a diferent UDVE of the state of SC. The original raw master file used here is sc3005_05amB.csv. That is an updated version of sc3005_05am, as I mistakly mixed put some counties in the wrong UDVES. For furhter information about the tecniques used for this task please check the worksheet 'Phase 1 - Term. Com.Line - M2P in the attached excel file named 'sc3005_05am - Github Documentation - M2P - Phases 1 e 3.xlsx'
 
 ## Phase II: 
 
