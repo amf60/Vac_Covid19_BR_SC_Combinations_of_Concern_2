@@ -20,14 +20,14 @@ To dig further and explore potential root causes of inconsitencies found on 12% 
 
 So the 5 variables that we will explore all the possible combinations are:
 
-• c26_v_fabricante_nome
-• c30_v_codigo
-• c31_v_nome
-• c29_v_descricao_dose
-• c32_sistema_origem
+* c26_v_fabricante_nome
+* c30_v_codigo
+* c31_v_nome
+* c29_v_descricao_dose
+* c32_sistema_origem
 
 
-# Rationale for adding those variables:
+# Rationale for adding these 2 variables:
 
 ## c29_v_descricao_dose:
 
@@ -61,11 +61,11 @@ SERUM INSTITUTE OF INDIA Ltds and Covishield are related to the AstraZeneca vacc
 
 # KEY FINDINGS FROM THE WORK DONE FOR THIS REPOSITORY
 
-• Only 2 out 17 SC UDVEs are responsible for ~ 80% of all registrations of concern (202.195 out of 259.507). 
+* Only 2 out 17 SC UDVEs are responsible for ~ 80% of all registrations of concern (202.195 out of 259.507). 
 
-• Only 1 out 6 Source Systems used in SC are responsible for 99% of registration with a 'combination of concern'. This clearly points out to SYSTEMIC ISSUE mainly because all the registers with a combination of concern appears across 16 out 17 UDVES with the problematic source system.
+* Only 1 out 6 Source Systems used in SC are responsible for 99% of registration with a 'combination of concern'. This clearly points out to SYSTEMIC ISSUE mainly because all the registers with a combination of concern appears across 16 out 17 UDVES with the problematic source system.
 
-• The proportion of combination of concern, for the column 29 was: Dose 1 = 64 % and Dose 2 = 36 % respectively.
+* The proportion of combination of concern, for the column 29 was: Dose 1 = 64 % and Dose 2 = 36 % respectively.
 
 
 # COMMENTS
@@ -100,8 +100,6 @@ Used Google Drive, Colab and Python – First I managed to upload one of the 17 
 ## Phase III:
 
 Excel: I then concatanated in the excel file, all the combinations between the 5 variables for each of the UDVEs. I then identified the "combinations of concern", isolated and analyzed them. The results analysis of the phase III are documented in the worksheets 'Phase 3 final results - M2P' and 'Phase 3A - Detailed results M2P' in the attached excel file named 'sc3005_05am - Github Documentation - M2P - Phases 1 e 3.xlsx'
-
-
 
 
 # Key references
