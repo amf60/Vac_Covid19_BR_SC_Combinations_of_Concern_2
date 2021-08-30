@@ -1,26 +1,17 @@
-* Fonte – OpenDataSus - Registros de Vacinação Covid19 (1)
-
-* Data from the Brazilian state of Santa Catarina – Brasil (2)
-
-* Downloaded on 30 de maio 2021 at 05am Brazilian time.
-
-* Initial master file named – sc3005_05am.csv
-
-* Total master file size – 1.11 GB = 34 columns (or variables) and 2,017,225 rows (or registrations)
+* Dataset Source – OpenDataSus  - Registros de Vacinação Covid19 - Dados SC – Santa Catarina – Brasil (1)
+* Dataset downloaded on 30 de maio 2021 at 05:00 am.
+* Inicial master File named – sc3005_05am.csv
+* Original total file size – 1.11 GB = 34 columns and 2,017,225 rows (or registrations)
 
 * The above master file was divided in 17 separated files. Each grouping all the registered data from the counties belonging to a DECENTRALIZED EPIDEMIOLOGICAL SURVEILLANCE UNITS (UDVE) in the state of Santa Catarina- Brasil.
 
 
-
 # Introduction
-This repository, built in 3 phases (details at the end of this page) is my personal project for the Module 2 of the Alura Bootcamp Applied Data Sciences.
+This repository, built in 3 phases (details at the end of this page) is my personal project for the Module 2 of the Alura Bootcamp Applied Data Sciences II (ABADSII).
 
-It uses the same original raw dataset used in the repository (Vac_Covid19_BR_SC_Combinations_of_Concern_1). It makes some corrections for the parsing done on phase I and digs further on the findings made on Module 1.
+It uses the same original raw dataset used in the repository (Vac_Covid19_BR_SC_Combinations_of_Concern_1). It makes some corrections for the parsing done on phase I in the previous module 1 and digs further on the findings made on Module 1.
 
-In the previous project after cross-checking 3 our of 34 original columns (coluna 26 - vacina_fabricante_nome, coluna 30 - vacina_codigo, coluna 31 - vacina_nome), of a government open source database, I found that for 12% of the registers (~260.000 out of ~ 2 Million), as per cut date of 30 May 2021 at 5am, we can not certify with 100% of certitude which vaccine an individual received.
-
-
-
+In the previous repository (Vac_Covid19_BR_SC_Combinations_of_Concern_1) after cross-checking 3 (out of the 34 original columns) (coluna 26 - vacina_fabricante_nome, coluna 30 - vacina_codigo, coluna 31 - vacina_nome), of a government open source database, I found that for 12% of the registers (~260.000 out of ~ 2 Million), as per cut date of 30 May 2021 at 5am, we can not certify with 100% of certitude which vaccine an individual received.
 
 
 # Exploratory Data Techniques:
@@ -36,24 +27,24 @@ So the 5 variables that we will explore all the possible combinations are:
 • c32_sistema_origem
 
 
-## Rationale for adding those variables:
+# Rationale for adding those variables:
 
-### c29_v_descricao_dose:
+## c29_v_descricao_dose:
 
-...As mentioned before, inconsitency between columns c-26, c30 and c_31, implies that, based on the data available in a individual register, we can not confirm which vaccine an individual received.
+* As mentioned before, inconsitency between columns c-26, c30 and c_31, implies that, based on the data available in a individual register, we can not confirm which vaccine an individual received.
 
-...From the safety and operational point of view, it has potential for disrupt the obligatory pharmacovigilance follow up for each individual as well as planning from local to federal level for the resuply of vaccines for the second dose. 
+* From the safety and operational point of view, it has potential for disrupt the obligatory pharmacovigilance follow up for each individual as well as planning from local to federal level for the resuply of vaccines for the second dose. 
 
-...The two most used vaccines have sigifnicant differences for the interval between Dose 1 and Dose 2 - Coronavac: 30 days and AstraZeneca (120 days). So by adding this variable to the analyses we may be able to assess some historical evolution of this issue.
+* The two most used vaccines have sigifnicant differences for the interval between Dose 1 and Dose 2 - Coronavac: 30 days and AstraZeneca (120 days). So by adding this variable to the analyses we may be able to assess some historical evolution of this issue.
 
-### c32_sistema_origem: 
+## c32_sistema_origem: 
 
-...If we ignore the spelling errors, I identified in this column, 6 different source systems available to local vaccinations teams to be used to register all the data from the vaccination of each individual. 
+* If we ignore the spelling errors, I identified in this column, 6 different source systems available to local vaccinations teams to be used to register all the data from the vaccination of each individual. 
 
-...I hope we could isolate any potential link between a source system and set(s) of 'combination of concern'.
+* I hope we could isolate any potential link between a source system and set(s) of 'combination of concern'.
 
 
-# DEFINING 'COMBINATION OF CONCERN'
+# FORMALLY DEFINING 'COMBINATIONS OF CONCERN' - (CoC)
 
 'Combination of concern': within an individual registration (rows from our master dataset and/or SC UDVE dataset), combination of data between columns c26_v_fabricante_nome, c30_v_codigo and c31_v_nome, that does not allow to confirm which vaccine an individual received.
 
@@ -81,18 +72,17 @@ SERUM INSTITUTE OF INDIA Ltds and Covishield are related to the AstraZeneca vacc
 
 From the RBM methodology point of view, the above findings from this M2 project are 'great news'. 
 
-It suggests that the root cause of such discrepancies are isolated, traceable, and in theory, have potential for manageable and speedy corrective actions using RBM tecniques.
+It suggests that the root cause of such discrepancies are isolated, traceable, and in theory, have potential for manageable and speedy corrective actions using RBM managerial tecniques.
 
 
 # NEXT STEPS
 
-* for the Module 3 project of this bootcamp to dig furhter and identify the counties and 'vaccination centers' with high frequency of combination of concern to be targeted for more detailed assessment of the root cause of those combinations of concern. We expect that such strategy will allow to set up an effective and tailored corrective and&or training plan.
+* for the Module 3 project of this bootcamp to dig furhter and identify the counties and 'vaccination centers' with high frequency of combination of concern to be targeted for more detailed assessment of the root cause of those combinations of concern. We expect that such strategy will allow to set up an effective and tailored corrective and/or training plan.
 
 
-* The 12% rate of combinations of concern were apparently a constant over at the end of April (personal empirical data) and May (as documented on vac-covid_19_3005_SC_c26_c30_c31). So it will be important to verify at end of June how this rate is evolving. For that we will be able to use the material prepared for this project as well the improvements to come due to learnings during this Alura Bootcamp Applied Data Sciences.
+* The 12% rate of combinations of concern was apparently a constant as I already noticed it at the end of April (personal empirical data) and May (as documented on Vac_Covid19_BR_SC_Combinations_of_Concern_1). So it will be important to verify at end of June how this rate is evolving. For that we will be able to use the material prepared for this project as well the improvements to come due to learnings during this Alura Bootcamp Applied Data Sciences.
 
 * Learn how to make all the tasks performed in phase I and II on this project using only Google&Colaboratory and Python.
-
 
 
 # Further details about how this project evolved:
@@ -101,11 +91,11 @@ It was created on three phases, each using different tools:
 
 ## Phase I:
 
-Terminal Command Line: due to restrictions and/or issues with the uploading of the master file due to its size I used the terminal command line on my macbook laptop to separate the data from the master file into 17 files, each corresponding to a diferent UDVE of the state of SC. For furhter information about the tecniques used for this task please check the worksheet 'Phase 1 - Term. Com.Line - M2P in the attached excel file named 'sc3005_05am - Github Documentation - M2P - Phases 1 e 3.xlsx'
+Terminal Command Line: due to restrictions and/or issues with the uploading of the master file due to its size I used the terminal command line on my macbook laptop to parse the data from the raw master file into 17 files, each corresponding to a diferent UDVE of the state of SC. For furhter information about the tecniques used for this task please check the worksheet 'Phase 1 - Term. Com.Line - M2P in the attached excel file named 'sc3005_05am - Github Documentation - M2P - Phases 1 e 3.xlsx'
 
 ## Phase II: 
 
-Used Google Drive, Colab and Python – First I managed to upload one of the 17 UDVE files. I will then used it to create a notebook by finding, isolating and quantifying all the exisiting combinations between the 5 variables (columns) mentioned above. Once I succeed to get the key information I need at this stage, I simply replicated this file for all the other 16 UDVEs. As all the 17 separated Colab notebooks have the same code, for convenience I will add on this github repository a notebook for only one UDVE. 
+Used Google Drive, Colab and Python – First I managed to upload one of the 17 UDVE files. I then used it to create a notebook by finding, isolating and quantifying all the exisiting combinations between the 5 variables (columns) mentioned above. Once I succeed to get the key information I need at this stage, I simply replicated this file for all the other 16 UDVEs. As all the 17 separated Colab notebooks have the same code, for convenience I will add on this github repository a notebook for only one UDVE. 
 
 ## Phase III:
 
