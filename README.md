@@ -9,14 +9,14 @@
 # Introduction
 This repository, built in 3 phases (details at the end of this page) is my personal project for the Module 2 of the Alura Bootcamp Applied Data Sciences II (ABADSII).
 
-It uses the same original raw dataset used in the repository (Vac_Covid19_BR_SC_Combinations_of_Concern_1). It makes some corrections for the parsing done on phase I in the previous module 1 and digs further on the findings made on Module 1.
+It uses the same original raw dataset used in the repository (Vac_Covid19_BR_SC_Combinations_of_Concern_1). After making some corrections for the parsing done on phase I in the previous module I dig further on the EDA work.
 
-In the previous repository (Vac_Covid19_BR_SC_Combinations_of_Concern_1) after cross-checking 3 (out of the 34 original columns) (coluna 26 - vacina_fabricante_nome, coluna 30 - vacina_codigo, coluna 31 - vacina_nome), of a government open source database, I found that for 12% of the registers (~260.000 out of ~ 2 Million), as per cut date of 30 May 2021 at 5am, we can not certify with 100% of certitude which vaccine an individual received.
+Brief summary from previous module: In the previous repository (Vac_Covid19_BR_SC_Combinations_of_Concern_1) after cross-checking 3 (out of the 34 original columns) (coluna 26 - vacina_fabricante_nome, coluna 30 - vacina_codigo, coluna 31 - vacina_nome), of a government open source database, I found that for 12% of the registers (~260.000 out of ~ 2 Million), as per cut date of 30 May 2021 at 5am, we can not certify with 100% of certitude which vaccine an individual received.
 
 
 # Exploratory Data Techniques:
 
-To dig further and explore potential root causes of inconsitencies found on 12% of the registers on the master file above, I added 2 original dataset columns to the initial 3 used in the previosu repository. These are c29_v_descricao_dose and c32_sistema_origem
+To dig further and explore potential root causes of inconsitencies found on 12% of the registers on the raw master file above, I added 2 original dataset columns to the initial 3 used in the previosu repository. These are c29_v_descricao_dose and c32_sistema_origem
 
 So the 5 variables that we will explore all the possible combinations are:
 
@@ -59,7 +59,7 @@ SERUM INSTITUTE OF INDIA Ltds and Covishield are related to the AstraZeneca vacc
 
 
 
-# KEY FINDINGS
+# KEY FINDINGS FROM THE WORK DONE FOR THIS REPOSITORY
 
 • Only 2 out 17 SC UDVEs are responsible for ~ 80% of all registrations of concern (202.195 out of 259.507). 
 
@@ -77,12 +77,12 @@ It suggests that the root cause of such discrepancies are isolated, traceable, a
 
 # NEXT STEPS
 
-* for the Module 3 project of this bootcamp to dig furhter and identify the counties and 'vaccination centers' with high frequency of combination of concern to be targeted for more detailed assessment of the root cause of those combinations of concern. We expect that such strategy will allow to set up an effective and tailored corrective and/or training plan.
+* for the next Module 3 project of this bootcamp I aim to dig further and identify the counties and 'vaccination centers' with high frequency of combination of concern to be targeted for more detailed assessment of the root cause of those combinations of concern. I expect that such strategy would allow to set up an effective and tailored corrective and/or training plan.
 
 
 * The 12% rate of combinations of concern was apparently a constant as I already noticed it at the end of April (personal empirical data) and May (as documented on Vac_Covid19_BR_SC_Combinations_of_Concern_1). So it will be important to verify at end of June how this rate is evolving. For that we will be able to use the material prepared for this project as well the improvements to come due to learnings during this Alura Bootcamp Applied Data Sciences.
 
-* Learn how to make all the tasks performed in phase I and II on this project using only Google&Colaboratory and Python.
+* Learn how to make all the tasks performed in phase I and III on this project using only Google&Colaboratory and Python.
 
 
 # Further details about how this project evolved:
