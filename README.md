@@ -1,6 +1,6 @@
 * Dataset Source – OpenDataSus  - Registros de Vacinação Covid19 - Dados SC – Santa Catarina – Brasil (1)
 * Dataset downloaded on 30 de maio 2021 at 05:00 am.
-* Inicial master File named – sc3005_05amB.csv (updated version of sc3005_05am)
+* Inicial master File named – sc3005_05amB.csv (corrected version of sc3005_05am)
 * Original total file size – 1.11 GB = 34 columns and 2.017.225 rows (or registrations)
 
 * The above master file was divided in 17 separated files. Each grouping all the registered data from the counties belonging to a DECENTRALIZED EPIDEMIOLOGICAL SURVEILLANCE UNITS (UDVE) in the state of Santa Catarina- Brasil.
@@ -95,11 +95,17 @@ Terminal Command Line: due to restrictions and/or issues with the uploading of t
 
 ## Phase II: 
 
-Used Google Drive, Colab and Python – First I managed to upload one of the 17 UDVE files. I then used it to create a notebook by finding, isolating and quantifying all the exisiting combinations between the 5 variables (columns) mentioned above. Once I succeed to get the key information I need at this stage, I simply replicated this file for all the other 16 UDVEs. As all the 17 separated Colab notebooks have the same code, for convenience I will add on this github repository a notebook for only one UDVE (M2_P_sc3005_UDVE_01.ipynb). All the other 16 notebooks can be found in My drive > Alura DS Bootcamp > Combinations of Concern Projects > Alura DS - M2 - Project - sc300521_05am
+Used Google Drive, Colab and Python – 
+* First I managed to upload one of the 17 UDVE files. 
+* Next I used used it to create a notebook by finding, isolating and quantifying all the exisiting combinations between the 5 variables (columns) mentioned above. Once I succeed to get the key information I need at this stage, I simply replicated this file for all the other 16 UDVEs. 
+* Then, I created a google sheet file with the results of each UDVE notebook 
+* Finally I compiled them together in one notebook named M2_P_sc3005_ALL_UDVEs.ipynb.
+
+As all the 17 separated Colab notebooks have the same code, for convenience I will add on this github repository a notebook for only one UDVE (M2_P_sc3005_UDVE_01.ipynb). All the other 16 notebooks can be found in My drive > Alura DS Bootcamp > Combinations of Concern Projects > Alura DS - Vac_C19_CoC_2_M2_AluraDSB_sc3005_05amB
 
 ## Phase III:
 
-Excel: I then concatanated in the excel file, all the combinations between the 5 variables for each of the UDVEs. I then identified the "combinations of concern", isolated and analyzed them. The results analysis of the phase III are documented in the worksheets 'Phase 3 final results - M2P' and 'Phase 3A - Detailed results M2P' in the attached excel file named 'sc3005_05am - Github Documentation - M2P - Phases 1 e 3.xlsx'
+Excel: Manually gathered the data from the notebook M2_P_sc3005_ALL_UDVEs.ipynb and transfered it to an Excel workbook. I then concatanated in the excel file, all the combinations between the 5 variables for each of the UDVEs. Identified the "combinations of concern", isolated and analyzed them. The results analysis of the phase III are documented in the worksheets 'Phase 3 final results - M2P' and 'Phase 3A - Detailed results M2P' in the attached excel file named 'sc3005_05am - Github Documentation - M2P - Phases 1 e 3.xlsx'
 
 
 # Key references
