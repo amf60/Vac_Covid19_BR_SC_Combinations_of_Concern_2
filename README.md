@@ -1,10 +1,3 @@
-# Introduction
-This repository, built in 3 phases (details at the end of this page) is my personal project for the Module 2 of the Alura Bootcamp Applied Data Sciences.
-
-It digs further on the findings from my previous project (vac-covid_19_3005_SC_c26_c30_c31) for the Module 1 of the same bootcamp.
-
-In the previous project after cross-checking 3 our of 34 original columns (coluna 26 - vacina_fabricante_nome, coluna 30 - vacina_codigo, coluna 31 - vacina_nome), of a government open source database, I found that for 12% of the registers (~260.000 out of ~ 2 Million), as per cut date of 30 May 2021 at 5am, we can not certify with 100% of certitude which vaccine an individual received.
-
 * Fonte – OpenDataSus - Registros de Vacinação Covid19 (1)
 
 * Data from the Brazilian state of Santa Catarina – Brasil (2)
@@ -16,6 +9,17 @@ In the previous project after cross-checking 3 our of 34 original columns (colun
 * Total master file size – 1.11 GB = 34 columns (or variables) and 2,017,225 rows (or registrations)
 
 * The above master file was divided in 17 separated files. Each grouping all the registered data from the counties belonging to a DECENTRALIZED EPIDEMIOLOGICAL SURVEILLANCE UNITS (UDVE) in the state of Santa Catarina- Brasil.
+
+
+
+# Introduction
+This repository, built in 3 phases (details at the end of this page) is my personal project for the Module 2 of the Alura Bootcamp Applied Data Sciences.
+
+It uses the same original raw dataset used in the repository (Vac_Covid19_BR_SC_Combinations_of_Concern_1). It makes some corrections for the parsing done on phase I and digs further on the findings made on Module 1.
+
+In the previous project after cross-checking 3 our of 34 original columns (coluna 26 - vacina_fabricante_nome, coluna 30 - vacina_codigo, coluna 31 - vacina_nome), of a government open source database, I found that for 12% of the registers (~260.000 out of ~ 2 Million), as per cut date of 30 May 2021 at 5am, we can not certify with 100% of certitude which vaccine an individual received.
+
+
 
 
 
