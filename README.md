@@ -1,7 +1,7 @@
 * Dataset Source – OpenDataSus  - Registros de Vacinação Covid19 - Dados SC – Santa Catarina – Brasil (1)
 * Dataset downloaded on 30 de maio 2021 at 05:00 am.
 * Inicial master File named – sc3005_05am.csv
-* Original total file size – 1.11 GB = 34 columns and 2,017,225 rows (or registrations)
+* Original total file size – 1.11 GB = 34 columns and 2.017.225 rows (or registrations)
 
 * The above master file was divided in 17 separated files. Each grouping all the registered data from the counties belonging to a DECENTRALIZED EPIDEMIOLOGICAL SURVEILLANCE UNITS (UDVE) in the state of Santa Catarina- Brasil.
 
